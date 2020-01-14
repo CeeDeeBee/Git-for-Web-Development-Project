@@ -79,7 +79,12 @@ Questions
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        Block elements take up as much space as is given to them and start on a new line. Inline elements only take up the space they need and do not start on a new line.
     2. What happens when an element is positioned absolutely? 
+        No space is created for the element so other elements will not respond to its size or position.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        You can do this by displaying the element as inline-block.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block: <div>, <p>, <header>. Inline: <a>, <span>. Inline-block: <button>.
     5. In your own words, explain the box model. What is the fix for the box model? 
+        Essentially every element on a page has a box around it which is defined by the size of the element's content, padding, border, and margin. This defines how large the element is and how it is spaced from other elements and its own border. Setting the element's box-sizing to border-box can "fix" the box model by not changing the element's border width/height when you change the padding.
